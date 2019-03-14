@@ -1,2 +1,2 @@
 # dockerfiles
-Containerise all the things!
+This is a place for me to stash the dockerfiles for the applications I want to containerize.
