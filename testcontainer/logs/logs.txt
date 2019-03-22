@@ -1,1 +1,2 @@
 This is an example text file to show mounting a sub-directory as a volume.
+Here is text added from inside the running container
