@@ -1,2 +1,7 @@
 This is an example text file to show mounting a sub-directory as a volume.
 Here is text added from inside the running container
+
+
+WSL doesn't integrate nicely with docker for windows, since the docker daemon is running on a mobylinux vm. As a result, any volume has to be added from the windows filesystem, and not the WSL one. Eg:
+
+docker run -d -p 8000:3000 --name node --volume /c/mnt/Users/rhart/dockerfiles/testcontainer/logs:/logs chrisnoring/node
