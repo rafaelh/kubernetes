@@ -1,3 +1,6 @@
+# Remember to enable the minikube ingress addon, if that's what you are using:
+# minikube addons enable ingress
+
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
