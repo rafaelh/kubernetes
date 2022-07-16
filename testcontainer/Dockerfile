@@ -1,6 +1,6 @@
 # Dockerfile
 
-FROM node:18.3.0-buster-slim
+FROM node:18.5.0-buster-slim
 
 WORKDIR /expressapp
 
