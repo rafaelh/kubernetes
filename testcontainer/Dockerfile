@@ -1,6 +1,6 @@
 # Dockerfile
 
-FROM node:current-buster-slim
+FROM node:iron-buster-slim
 
 WORKDIR /expressapp
 
